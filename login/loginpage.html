@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="icons/ico_top.ico" type="image icon"> 
+    <script src="js/javascript.js"> </script>
+    <title>TIRED OF PEOPLE</title>
+</head>
+<body>
+    <main>
+        <aside class="left-login">
+            <a class="adminpass" href="../register/admin/index.html">
+                <img src="img/readingcomics.svg" alt="child reading books" class="left-login-image"> 
+            </a>
+        </aside>
+        <section class="right-login">
+            <div class="card-login">
+                <h1> LOGIN </h1>
+                <form name="formulario" for="username">
+                    <div class="textfield">
+                        <label for="username"> Usuario: </label>
+                            <input type="text" name="username" id="username" placeholder="Usuario" required>
+                    </div>
+                    <div class="textfield">
+                        <label for="password"> Senha: </label> 
+                            <input type="password" name="password" id="password" placeholder="Senha" required>
+                    </div>
+                </form>
+
+                <a href="../loja/index.html" class="abutton">
+                    <button class="btn-login" onclick="aviso()" type="submit">
+                        Login
+                    </button>    
+                </a>
+
+                <h3 class="cadastro"> 
+                    Ainda não tem cadastro <a class="registrar" href="../register/user/index.html"> Cadastre-se </a>
+                </h3>
+            </div>
+            <div id="areaResposta"></div>
+        </section>
+    </main>
+</body>
+</html>
